@@ -21,7 +21,7 @@ const Example = props => (
 		>
 			Кек
 		</PanelHeader>
-		<img className="Example" src={example} alt="Example The Cat"/>
+		<img className="Example" src={persik} alt="Example The Cat"/>
 	</Panel>
 );
 
