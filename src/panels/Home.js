@@ -27,6 +27,11 @@ const Home = ({ id, go, fetchedUser }) => (
 					Нажми на кнопьку
 				</Button>
 			</Div>
+			<Div>
+				<Button size="xl" level="2" onClick={go} data-to="persik">
+					Другая кнопка
+				</Button>
+			</Div>
 		</Group>
 	</Panel>
 );
