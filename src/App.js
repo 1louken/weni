@@ -6,6 +6,7 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
+import Example from './panels/Example';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
