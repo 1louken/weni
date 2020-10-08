@@ -28,7 +28,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				</Button>
 			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="Example">
+				<Button size="xl" level="2" onClick={go} data-to="example">
 					Другая кнопка
 				</Button>
 			</Div>
