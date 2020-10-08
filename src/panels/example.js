@@ -7,7 +7,7 @@ import PanelHeaderButton from '@vkontakte/vkui/dist/components/PanelHeaderButton
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
 
-import persik from '../img/ochko.jpg';
+import example from '../img/persik.png';
 import './Persik.css';
 
 const osName = platform();
@@ -21,7 +21,7 @@ const Example = props => (
 		>
 			Кек
 		</PanelHeader>
-		<img className="Example" src={persik} alt="Example The Cat"/>
+		<img className="Example" src={example} alt="Example The Cat"/>
 	</Panel>
 );
 
