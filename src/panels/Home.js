@@ -8,6 +8,8 @@ import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
+import buttom from '../img/buttom.jpg';
+
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Пример ебать</PanelHeader>
@@ -31,6 +33,9 @@ const Home = ({ id, go, fetchedUser }) => (
 				<Button size="xl" level="2" onClick={go} data-to="example">
 					Другая кнопка
 				</Button>
+			</Div>
+			<Div>
+				<img className="Buttom" src={buttom}/>
 			</Div>
 		</Group>
 	</Panel>
