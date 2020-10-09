@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea89a983aecc27571c129f98ea4159a6",
+    "revision": "57dbf95ea4077fe2dae3802e7046d01b",
     "url": "/weni/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weni/static/css/2.86df01db.chunk.css"
   },
   {
-    "revision": "a0d458af62b856c83d8b",
-    "url": "/weni/static/css/main.4148251d.chunk.css"
+    "revision": "d499349ddba86333dc3d",
+    "url": "/weni/static/css/main.175563d6.chunk.css"
   },
   {
     "revision": "f64dc74dcaac0f57f28d",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weni/static/js/2.fe2b98c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0d458af62b856c83d8b",
-    "url": "/weni/static/js/main.faf2b377.chunk.js"
+    "revision": "d499349ddba86333dc3d",
+    "url": "/weni/static/js/main.e0a128bb.chunk.js"
   },
   {
     "revision": "3195fde33e885666fe9b",
     "url": "/weni/static/js/runtime-main.6d3fe411.js"
   },
   {
-    "revision": "3ff85e0bbd09049f22471076971e7811",
-    "url": "/weni/static/media/buttom.3ff85e0b.jpg"
+    "revision": "529fb2d701b5f8f9d4472f8149de76c4",
+    "url": "/weni/static/media/buttom.529fb2d7.png"
   },
   {
     "revision": "bd237d6b79199defb7e22b2b89ca819f",
