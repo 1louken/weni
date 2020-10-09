@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36b0eac1636674db1eaef5c7d122b0d1",
+    "revision": "1078170fa15cf4e8fa70147c63a0cc6f",
     "url": "/weni/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weni/static/css/2.86df01db.chunk.css"
   },
   {
-    "revision": "2e008c51a36d61db6b5f",
-    "url": "/weni/static/css/main.3ecd22a2.chunk.css"
+    "revision": "a2216b1d31b5c1234c14",
+    "url": "/weni/static/css/main.d803089f.chunk.css"
   },
   {
     "revision": "f64dc74dcaac0f57f28d",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weni/static/js/2.fe2b98c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e008c51a36d61db6b5f",
+    "revision": "a2216b1d31b5c1234c14",
     "url": "/weni/static/js/main.97d6519b.chunk.js"
   },
   {
