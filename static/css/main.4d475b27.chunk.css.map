@@ -1,1 +1,0 @@
-{"version":3,"sources":["Persik.css"],"names":[],"mappings":"AAQA,iBACE,aAAc,CACd,SAAU,CACV,eAAgB,CAChB,gBACF","file":"main.4d475b27.chunk.css","sourcesContent":[".Persik {\n  display: block;\n  width: 30%;\n  max-width: 240px;\n  margin: 20px auto;\n}\n\n\n.Example {\n  display: block;\n  width: 30%;\n  max-width: 240px;\n  margin: 20px auto;\n}"]}
