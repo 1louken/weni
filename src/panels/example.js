@@ -19,7 +19,7 @@ const Example = props => (
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Кек
+			Улучшения
 		</PanelHeader>
 		<img className="Example" src={example} alt="Example The Cat"/>
 	</Panel>

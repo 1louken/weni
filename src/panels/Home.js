@@ -12,7 +12,7 @@ import buttom from '../img/buttom.png';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Пример ебать</PanelHeader>
+		<PanelHeader>Energy Coin</PanelHeader>
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Bridge">
 			<Cell
@@ -26,12 +26,12 @@ const Home = ({ id, go, fetchedUser }) => (
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Нажми на кнопьку
+					Топ
 				</Button>
 			</Div>
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="example">
-					Другая кнопка
+					Улучшения
 				</Button>
 			</Div>
 			<Div>
