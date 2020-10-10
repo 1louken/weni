@@ -15,7 +15,7 @@ const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
 
-		<Group title="Navigation Example">
+		<body className="body">
 			<Div className="Menu_block">
 				<img className="Menu" src={menu}/>
 				<Div className="Buttom_one" onClick={go} data-to="persik"></Div>
@@ -26,7 +26,7 @@ const Home = ({ id, go, fetchedUser}) => (
 			<Div>
 				<img className="Battom" src={battom}/>
 			</Div>
-		</Group>
+		</body>
 	</Panel>
 );
 
