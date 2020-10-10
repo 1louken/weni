@@ -60,5 +60,6 @@
   background: blue;
   position: absolute;
   width: 90%;
-  margin: 5%;
+  height: 25%;
+  margin: 5% auto;
 }
