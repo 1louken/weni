@@ -21,7 +21,7 @@
 
 .Buttom_one {
   background: red;
-  position: relative;
+  position: absolute;
   width: 10%;
   height: 25%;
   margin-left: 10%;
@@ -29,7 +29,7 @@
 
 .Buttom_two {
   background: red;
-  position: relative;
+  position: absolute;
   width: 10%;
   height: 25%;
   margin-left: 30%;
@@ -37,7 +37,7 @@
 
 .Buttom_three {
   background: red;
-  position: relative;
+  position: absolute;
   width: 10%;
   height: 25%;
   margin-left: 50%;
@@ -45,20 +45,20 @@
 
 .Buttom_four {
   background: red;
-  position: relative;
+  position: absolute;
   width: 10%;
   height: 25%;
   margin-left: 70%;
 }
 
 .Menu {
-  position: relative;
+  position: absolute;
   width: 100%;
 }
 
 .Menu_block {
   background: blue;
-  position: relative;
+  position: absolute;
   width: 90%;
   margin: 5%;
 }
