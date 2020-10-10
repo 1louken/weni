@@ -26,7 +26,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				</Button>
 			</Div>
 			<Div>
-				<img className="Battom" src={battom}/>
+				<img className="Battom" src={battom} onClick={add}>
 			</Div>
 		</Group>
 	</Panel>

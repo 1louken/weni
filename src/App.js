@@ -19,7 +19,8 @@ const App = () => {
 		password:'Tosha3301Alex2005',
 		database:'forane$fnor'
 	});
-	connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
+
+	const add = connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
     	if(err) console.log(err);
     	else console.log("Данные добавлены");
     	connection.commit()
@@ -47,7 +48,7 @@ const App = () => {
 
 	return (
 		<View activePanel={activePanel} popout={popout}>
-			<Home id='home' fetchedUser={fetchedUser} go={go} />
+			<Home id='home' fetchedUser={fetchedUser} go={go} add={add}/>
 			<Persik id='persik' go={go} />
 			<Example id='example' go={go} />
 		</View>
