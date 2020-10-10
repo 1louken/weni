@@ -8,7 +8,7 @@ import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
-import buttom from '../img/battom.png';
+import battom from '../img/battom.png';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
@@ -35,7 +35,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				</Button>
 			</Div>
 			<Div>
-				<img className="Buttom" src={buttom}/>
+				<img className="Battom" src={battom}/>
 			</Div>
 		</Group>
 	</Panel>
