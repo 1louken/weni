@@ -18,3 +18,10 @@
   width: 98%;
   margin-top: 50%;
 }
+
+.Buttom_one {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin: 20px auto;
+}
