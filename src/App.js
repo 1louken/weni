@@ -12,7 +12,7 @@ const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
-	const mysql = require('mysql2');
+	const mysql = require('mysql');
 
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
