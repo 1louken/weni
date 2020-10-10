@@ -45,7 +45,7 @@ const App = () => {
       		return console.error("Ошибка: " + err.message);
     	}
     	else{
-      		connectiononsole.log("Подключение к серверу MySQL успешно установлено");
+      		console.log("Подключение к серверу MySQL успешно установлено");
     	}
  	});
 
