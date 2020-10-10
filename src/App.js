@@ -12,8 +12,31 @@ const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
-	const mysql = require('mysql');
+	const mysql = require("mysql2");
+	const express = require("express");
+	const app = express();
+	const bodyParser = require("body-parser");
+	const urlencodedParser = bodyParser.urlencoded({extended: false});
+ 
+	const connection = mysql.createPool({
+  		connectionLimit: 5,
+  		host: "forane.mysql.pythonanywhere-services.com",
+  		user: "forane",
+  		database: "forane$fnor",
+  		password: "Tosha3301Alex2005"
+	});
+	app.set("view engine", "hbs");
 
+	function add() {
+		app.post("/create", urlencodedParser, function (req, res) {
+   	 		connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
+    			if(err) console.log(err);
+    			else console.log("Данные добавлены");
+    			connection.commit()
+			});
+		});
+	}
+	
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
 			if (type === 'VKWebAppUpdateConfig') {
@@ -34,20 +57,6 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
 
-	const connection = mysql.createConnection({
-  		host: "forane.mysql.pythonanywhere-services.com",
- 		user: "forane",
-  		database: "forane$fnor",
-  		password: "Tosha3301Alex2005"
-	});
-
-	function add() {	
-		connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
-    		if(err) console.log(err);
-    		else console.log("Данные добавлены");
-    		connection.commit()
-		});
-	};
 
 	return (
 		<View activePanel={activePanel} popout={popout}>
