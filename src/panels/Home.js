@@ -10,6 +10,7 @@ import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 import battom from '../img/battom.png';
 import menu from '../img/menu.png';
+import './Style.css';
 
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
