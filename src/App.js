@@ -18,8 +18,7 @@ const App = () => {
 	const bodyParser = require("body-parser");
 	const urlencodedParser = bodyParser.urlencoded({extended: false});
  
-	const connection = mysql.createPool({
-  		connectionLimit: 5,
+	const connection = mysql.createConnection({
   		host: "forane.mysql.pythonanywhere-services.com",
   		user: "forane",
   		database: "forane$fnor",
@@ -36,7 +35,7 @@ const App = () => {
 			});
 		});
 	}
-	
+
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
 			if (type === 'VKWebAppUpdateConfig') {
