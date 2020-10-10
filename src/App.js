@@ -12,6 +12,14 @@ const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
+	const mysql = require('mysql');
+	const connection = mysql.createConnection({
+	host: 'forane.mysql.pythonanywhere-services.com',
+	user:'forane',
+	password:'Tosha3301Alex2005',
+	database:'forane$fnor'
+	});
+	con.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", (err,rows) => { if(err) throw err; console.log('Data received from Db:'); console.log(rows); }); 
 
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
