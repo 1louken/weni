@@ -10,7 +10,7 @@ import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 import battom from '../img/battom.png';
 
-const Home = ({ id, go, fetchedUser }) => (
+const Home = ({ id, go, fetchedUser, add }) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
 
