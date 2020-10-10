@@ -22,6 +22,7 @@ const App = () => {
 	connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
     	if(err) console.log(err);
     	else console.log("Данные добавлены");
+    	connection.commit()
 	});
 
 	useEffect(() => {
