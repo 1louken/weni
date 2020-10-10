@@ -10,6 +10,7 @@ import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 import battom from '../img/battom.png';
 import menu from '../img/menu.png';
+
 import './Style.css';
 
 const Home = ({ id, go, fetchedUser}) => (
@@ -17,17 +18,15 @@ const Home = ({ id, go, fetchedUser}) => (
 		<PanelHeader>Energy Coin</PanelHeader>
 
 		<Group>
-			<Div className="Body">
-				<Div className="Menu_block">
-					<img className="Menu" src={menu}/>
-					<Div className="Top_botton" onClick={go} data-to="top"></Div>
-					<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
-					<Div className="Business_botton" onClick={go} data-to="business"></Div>
-					<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-				</Div>
-				<Div>
-					<img className="Battom" src={battom}/>
-				</Div>
+			<Div className="Menu_block">
+				<img className="Menu" src={menu}/>
+				<Div className="Top_botton" onClick={go} data-to="top"></Div>
+				<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
+				<Div className="Business_botton" onClick={go} data-to="business"></Div>
+				<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
+			</Div>
+			<Div>
+				<img className="Battom" src={battom}/>
 			</Div>
 		</Group>
 	</Panel>

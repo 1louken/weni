@@ -1,9 +1,3 @@
-.Body {
-  background: green;
-  width: auto;
-  height: auto;
-}
-
 .Battom {
   display: block;
   width: 90%;
@@ -13,7 +7,6 @@
 }
 
 .Top_botton {
-  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -22,7 +15,6 @@
 }
 
 .Trade_botton {
-  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -31,7 +23,6 @@
 }
 
 .Business_botton {
-  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -40,7 +31,6 @@
 }
 
 .Shop_botton {
-  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -49,18 +39,16 @@
 }
 
 .Menu {
-  position: absolute;
-  margin-top: 40%;
+  display: block;
   width: 100%;
-  margin-top: 30%;
-  margin-right: 5%;
-  margin-left: 5%;
 }
 
 .Menu_block {
   background: red;
-  position: absolute;
-  width: 100%;
-  height: 10%;
-  margin-top: 40%;
+  display: block;
+  width: 90%;
+  height: 12%;
+  margin-top: 20%;
+  margin-right: 0%; 
+  margin-left: 0%;
 }
