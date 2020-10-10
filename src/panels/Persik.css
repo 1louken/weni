@@ -23,7 +23,8 @@
   display: block;
   width: 10%;
   height: 10%;
-  margin: 20px auto;
+  margin-top: 20px auto;
+  margin-left: 10% auto;
 }
 
 .Buttom_two {
@@ -37,7 +38,7 @@
   display: block;
   width: 10%;
   height: 10%;
-  margin: 20px auto;
+  margin: 10% auto;
 }
 
 .Buttom_four {
@@ -49,7 +50,6 @@
 
 .Menu {
   display: block;
-  width: 90%;
-  height: 10%;
+  width: 98%;
   margin: 20px auto;
 }
