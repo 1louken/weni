@@ -62,7 +62,7 @@
 
 .Menu_block {
   background: blue;
-  position: absolute;
+  display: block;
   width: 90%;
   margin: 5% auto;
 }
