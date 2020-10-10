@@ -58,6 +58,8 @@
 .Menu {
   position: absolute;
   width: 90%;
-  height: 30%;
-  margin: 5% auto;
+  height: 25%;
+  margin-top: 5%;
+  margin-left: 5% auto;
+  margin-right: 5% auto;
 }
