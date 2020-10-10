@@ -1,7 +1,7 @@
 .Body {
   background: green;
-  width: 100% auto;
-  height: 100% auto;
+  width: auto;
+  height: auto;
 }
 
 .Battom {
