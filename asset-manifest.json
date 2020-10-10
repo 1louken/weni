@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/weni/static/css/main.da997387.chunk.css",
+    "main.css": "/weni/static/css/main.b4343080.chunk.css",
     "main.js": "/weni/static/js/main.b98fa892.chunk.js",
     "main.js.map": "/weni/static/js/main.b98fa892.chunk.js.map",
     "runtime-main.js": "/weni/static/js/runtime-main.6d3fe411.js",
@@ -9,10 +9,10 @@
     "static/js/2.fe2b98c9.chunk.js": "/weni/static/js/2.fe2b98c9.chunk.js",
     "static/js/2.fe2b98c9.chunk.js.map": "/weni/static/js/2.fe2b98c9.chunk.js.map",
     "index.html": "/weni/index.html",
-    "precache-manifest.75e32c31ab6621c248c07809a19863c2.js": "/weni/precache-manifest.75e32c31ab6621c248c07809a19863c2.js",
+    "precache-manifest.c825456c35959ef6b2f6ee7e725ed34f.js": "/weni/precache-manifest.c825456c35959ef6b2f6ee7e725ed34f.js",
     "service-worker.js": "/weni/service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "/weni/static/css/2.86df01db.chunk.css.map",
-    "static/css/main.da997387.chunk.css.map": "/weni/static/css/main.da997387.chunk.css.map",
+    "static/css/main.b4343080.chunk.css.map": "/weni/static/css/main.b4343080.chunk.css.map",
     "static/js/2.fe2b98c9.chunk.js.LICENSE.txt": "/weni/static/js/2.fe2b98c9.chunk.js.LICENSE.txt",
     "static/media/battom.png": "/weni/static/media/battom.0f56013a.png",
     "static/media/ochko.jpg": "/weni/static/media/ochko.bd237d6b.jpg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.6d3fe411.js",
     "static/css/2.86df01db.chunk.css",
     "static/js/2.fe2b98c9.chunk.js",
-    "static/css/main.da997387.chunk.css",
+    "static/css/main.b4343080.chunk.css",
     "static/js/main.b98fa892.chunk.js"
   ]
 }
