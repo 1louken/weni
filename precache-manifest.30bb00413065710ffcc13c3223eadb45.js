@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c6579e830f58749ca17c8dbc086d8db",
+    "revision": "58a4c8e21bbc13fad9bc6d7b7c614771",
     "url": "/weni/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weni/static/js/2.efe60eae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc21e2cbc18cc8ab6c40",
-    "url": "/weni/static/js/main.b7be0f3d.chunk.js"
+    "revision": "f4c597bb0925ef2fb397",
+    "url": "/weni/static/js/main.d4ea2cf5.chunk.js"
   },
   {
     "revision": "3195fde33e885666fe9b",
