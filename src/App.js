@@ -41,7 +41,7 @@ const App = () => {
 			<Home id='home' fetchedUser={fetchedUser} go={go}/>
 			<Top id='top' go={go} />
 			<Trade id='trade' go={go}/>
-			<Business id='business' go={go} >
+			<Business id='business' go={go}/>
 			<Shop id='shop' go={go}/>
 		</View>
 	);
