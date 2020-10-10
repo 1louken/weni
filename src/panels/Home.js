@@ -8,7 +8,7 @@ import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
-import buttom from '../img/buttom.png';
+import buttom from '../img/battom.png';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
