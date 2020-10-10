@@ -56,13 +56,13 @@
 }
 
 .Menu {
-  display: block;
+  position: absolute;
   width: 100%;
 }
 
 .Menu_block {
   background: blue;
-  display: block;
+  position: absolute;
   width: 90%;
   margin: 5% auto;
 }
