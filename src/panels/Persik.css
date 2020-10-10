@@ -25,3 +25,31 @@
   height: 10%;
   margin: 20px auto;
 }
+
+.Buttom_two {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin: 20px auto;
+}
+
+.Buttom_three {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin: 20px auto;
+}
+
+.Buttom_four {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin: 20px auto;
+}
+
+.Menu {
+  display: block;
+  width: 90%;
+  height: 10%;
+  margin: 20px auto;
+}

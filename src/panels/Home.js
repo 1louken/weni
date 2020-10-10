@@ -9,29 +9,24 @@ import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 import battom from '../img/battom.png';
+import menu from '../img/menu.png';
 
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
 
 		<Group title="Navigation Example">
-			<Div className="Buttom_one" onClick={go} data-to="persik">
-			</Div>
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="example">
-					Улучшения
-				</Button>
-			</Div>
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Топ
-				</Button>
-			</Div>
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="example">
-					Улучшения
-				</Button>
-			</Div>
+				<img className="Menu" src={menu}/>
+				<Div className="Buttom_one" onClick={go} data-to="persik">
+				</Div>
+				<Div className="Buttom_two" onClick={go} data-to="example">
+				</Div>
+				<Div className="Buttom_three" onClick={go} data-to="example">
+				</Div>
+				<Div className="Buttom_four" onClick={go} data-to="example">
+				</Div>
+			</div>
 			<Div>
 				<img className="Battom" src={battom}/>
 			</Div>
