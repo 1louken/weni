@@ -34,10 +34,32 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
 
+	const connection = mysql.createConnection({
+  		host: "forane.mysql.pythonanywhere-services.com",
+ 		user: "forane",
+  		database: "forane$fnor",
+  		password: "Tosha3301Alex2005"
+	});
+ 	connection.connect(function(err){
+    	if (err) {
+      		return console.error("Ошибка: " + err.message);
+    	}
+    	else{
+      		console.log("Подключение к серверу MySQL успешно установлено");
+    	}
+ 	});
+
+	function add() {	
+		connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
+    		if(err) console.log(err);
+    		else console.log("Данные добавлены");
+    		connection.commit()
+		});
+	};
 
 	return (
 		<View activePanel={activePanel} popout={popout}>
-			<Home id='home' fetchedUser={fetchedUser} go={go}/>
+			<Home id='home' fetchedUser={fetchedUser} go={go} add={add()}/>
 			<Persik id='persik' go={go} />
 			<Example id='example' go={go} />
 		</View>
