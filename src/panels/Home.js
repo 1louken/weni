@@ -18,15 +18,11 @@ const Home = ({ id, go, fetchedUser}) => (
 		<Group title="Navigation Example">
 			<Div>
 				<img className="Menu" src={menu}/>
-				<Div className="Buttom_one" onClick={go} data-to="persik">
-				</Div>
-				<Div className="Buttom_two" onClick={go} data-to="example">
-				</Div>
-				<Div className="Buttom_three" onClick={go} data-to="example">
-				</Div>
-				<Div className="Buttom_four" onClick={go} data-to="example">
-				</Div>
-			</div>
+				<Div className="Buttom_one" onClick={go} data-to="persik"></Div>
+				<Div className="Buttom_two" onClick={go} data-to="example"></Div>
+				<Div className="Buttom_three" onClick={go} data-to="example"></Div>
+				<Div className="Buttom_four" onClick={go} data-to="example"></Div>
+			</Div>
 			<Div>
 				<img className="Battom" src={battom}/>
 			</Div>
