@@ -15,7 +15,7 @@ const Home = ({ id, go, fetchedUser}) => (
 		<PanelHeader>Energy Coin</PanelHeader>
 
 		<Group title="Navigation Example">
-			<Div className=Buttom_one onClick={go} data-to="persik">
+			<Div className="Buttom_one" onClick={go} data-to="persik">
 			</Div>
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="example">
