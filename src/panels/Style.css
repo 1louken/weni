@@ -44,6 +44,7 @@
 }
 
 .Menu_block {
+  background: red;
   display: block;
   width: 90%;
   height: 12%;
