@@ -35,7 +35,6 @@ const Home = ({ id, go, fetchedUser, add }) => (
 Home.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
-	add: PropTypes.func.isRequired
 };
 
 export default Home;
