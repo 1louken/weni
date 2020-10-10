@@ -14,21 +14,6 @@ const App = () => {
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 	const mysql = require('mysql2');
 
-	const connection = mysql.createConnection({
-		host: 'forane.mysql.pythonanywhere-services.com',
-		user:'forane',
-		password:'Tosha3301Alex2005',
-		database:'forane$fnor'
-	});
-
-	function add() {	
-		connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
-    		if(err) console.log(err);
-    		else console.log("Данные добавлены");
-    		connection.commit()
-		});
-	};
-
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
 			if (type === 'VKWebAppUpdateConfig') {
@@ -47,6 +32,29 @@ const App = () => {
 
 	const go = e => {
 		setActivePanel(e.currentTarget.dataset.to);
+	};
+
+	const connection = mysql.createConnection({
+  		host: "forane.mysql.pythonanywhere-services.com",
+ 		user: "forane",
+  		database: "forane$fnor",
+  		password: "Tosha3301Alex2005"
+	});
+ 	connection.connect(function(err){
+    	if (err) {
+      		return console.error("Ошибка: " + err.message);
+    	}
+    	else{
+      		connectiononsole.log("Подключение к серверу MySQL успешно установлено");
+    	}
+ 	});
+
+	function add() {	
+		connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
+    		if(err) console.log(err);
+    		else console.log("Данные добавлены");
+    		connection.commit()
+		});
 	};
 
 	return (
