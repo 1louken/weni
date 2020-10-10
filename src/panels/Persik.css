@@ -19,35 +19,39 @@
 }
 
 .Buttom_one {
+  background: red;
   position: absolute;
   width: 15%;
   height: 6%;
   margin-left: 1%;
-  margin-top: -17%;
+  margin-top: -18%;
 }
 
 .Buttom_two {
+  background: red;
   position: absolute;
   width: 15%;
   height: 6%;
   margin-left: 23%;
-  margin-top: -17%;
+  margin-top: -18%;
 }
 
 .Buttom_three {
+  background: red;
   position: absolute;
   width: 15%;
   height: 6%;
   margin-left: 45%;
-  margin-top: -17%;
+  margin-top: -18%;
 }
 
 .Buttom_four {
+  background: red;
   position: absolute;
   width: 15%;
   height: 6%;
   margin-left: 67%;
-  margin-top: -17%;
+  margin-top: -18%;
 }
 
 .Menu {
