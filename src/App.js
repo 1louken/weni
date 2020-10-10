@@ -14,12 +14,12 @@ const App = () => {
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 	const mysql = require('mysql2');
 	const connection = mysql.createConnection({
-	host: 'forane.mysql.pythonanywhere-services.com',
-	user:'forane',
-	password:'Tosha3301Alex2005',
-	database:'forane$fnor'
+		host: 'forane.mysql.pythonanywhere-services.com',
+		user:'forane',
+		password:'Tosha3301Alex2005',
+		database:'forane$fnor'
 	});
-	connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)" {
+	connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", function(err, results) {
     	if(err) console.log(err);
     	else console.log("Данные добавлены");
 	});
