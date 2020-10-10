@@ -12,15 +12,17 @@ const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
-	const mysql = require('mysql');
+	const mysql = require('mysql2');
 	const connection = mysql.createConnection({
 	host: 'forane.mysql.pythonanywhere-services.com',
 	user:'forane',
 	password:'Tosha3301Alex2005',
 	database:'forane$fnor'
 	});
-	connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)", (err,rows) => { if(err) throw err; console.log('Data received from Db:'); console.log(rows); }); 
-
+	connection.query("INSERT INTO slovar (inpus, answes) VALUES (0, 0)" {
+    	if(err) console.log(err);
+    	else console.log("Данные добавлены");
+	});
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
 			if (type === 'VKWebAppUpdateConfig') {
