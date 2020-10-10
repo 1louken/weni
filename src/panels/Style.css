@@ -7,6 +7,7 @@
 }
 
 .Top_botton {
+  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -15,6 +16,7 @@
 }
 
 .Trade_botton {
+  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -23,6 +25,7 @@
 }
 
 .Business_botton {
+  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -31,6 +34,7 @@
 }
 
 .Shop_botton {
+  background: blue;
   position: absolute;
   width: 15%;
   height: 6%;
