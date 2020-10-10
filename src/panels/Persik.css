@@ -21,7 +21,7 @@
 .Buttom_one {
   background: red;
   position: absolute;
-  width: 12%;
+  width: 13%;
   height: 6%;
   margin-left: 1%;
   margin-top: -20%;
@@ -30,27 +30,27 @@
 .Buttom_two {
   background: red;
   position: absolute;
-  width: 12%;
+  width: 13%;
   height: 6%;
-  margin-left: 24%;
+  margin-left: 23%;
   margin-top: -20%;
 }
 
 .Buttom_three {
   background: red;
   position: absolute;
-  width: 12%;
+  width: 13%;
   height: 6%;
-  margin-left: 47%;
+  margin-left: 46%;
   margin-top: -20%;
 }
 
 .Buttom_four {
   background: red;
   position: absolute;
-  width: 12%;
+  width: 13%;
   height: 6%;
-  margin-left: 70%;
+  margin-left: 69%;
   margin-top: -20%;
 }
 
