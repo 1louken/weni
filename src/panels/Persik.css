@@ -56,7 +56,7 @@
 }
 
 .Menu {
-  position: absolute;
+  display: block;
   width: 90%;
   margin: 5% auto;
 }
@@ -66,5 +66,5 @@
   display: block;
   width: 90%;
   height: 10px;
-  margin: 5% auto;
+  margin-left: 5%;
 }
