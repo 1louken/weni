@@ -1,7 +1,7 @@
 .Battom {
   display: block;
   width: 90%;
-  margin: 50% 5% 20%;
+  margin: 50% 5% 30% auto; 
 }
 
 .Top_botton {
