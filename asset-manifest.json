@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weni/static/css/main.d8cdd68e.chunk.css",
-    "main.js": "/weni/static/js/main.64ef4ed6.chunk.js",
-    "main.js.map": "/weni/static/js/main.64ef4ed6.chunk.js.map",
+    "main.js": "/weni/static/js/main.e41395d7.chunk.js",
+    "main.js.map": "/weni/static/js/main.e41395d7.chunk.js.map",
     "runtime-main.js": "/weni/static/js/runtime-main.6d3fe411.js",
     "runtime-main.js.map": "/weni/static/js/runtime-main.6d3fe411.js.map",
     "static/css/2.86df01db.chunk.css": "/weni/static/css/2.86df01db.chunk.css",
     "static/js/2.cc1a13a3.chunk.js": "/weni/static/js/2.cc1a13a3.chunk.js",
     "static/js/2.cc1a13a3.chunk.js.map": "/weni/static/js/2.cc1a13a3.chunk.js.map",
     "index.html": "/weni/index.html",
-    "precache-manifest.6ba6ef2a062b3a3c620721caca7f9353.js": "/weni/precache-manifest.6ba6ef2a062b3a3c620721caca7f9353.js",
+    "precache-manifest.7af89e650054fe6110091d388f2b24f4.js": "/weni/precache-manifest.7af89e650054fe6110091d388f2b24f4.js",
     "service-worker.js": "/weni/service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "/weni/static/css/2.86df01db.chunk.css.map",
     "static/css/main.d8cdd68e.chunk.css.map": "/weni/static/css/main.d8cdd68e.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.86df01db.chunk.css",
     "static/js/2.cc1a13a3.chunk.js",
     "static/css/main.d8cdd68e.chunk.css",
-    "static/js/main.64ef4ed6.chunk.js"
+    "static/js/main.e41395d7.chunk.js"
   ]
 }
