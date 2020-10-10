@@ -1,4 +1,5 @@
 .Body {
+  display: block;
   background: lightyellow;
   width: 100%;
   height: 100%;
