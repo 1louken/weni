@@ -57,14 +57,13 @@
 
 .Menu {
   display: block;
-  width: 90%;
-  margin: 5% auto;
+  width: 100%;
 }
 
 .Menu_block {
   background: blue;
   display: block;
   width: 90%;
-  height: 10px;
-  margin-left: 5%;
+  height: 10%;
+  margin: 5% auto;
 }
