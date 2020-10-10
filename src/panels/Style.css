@@ -1,25 +1,10 @@
-.Persik {
-  display: block;
-  width: 10%;
-  height: 10%;
-  margin: 20px auto;
-}
-
-.Example {
-  display: block;
-  width: 30%;
-  max-width: 240px;
-  margin: 20px auto;
-}
-
 .Battom {
   display: block;
   width: 98%;
   margin-top: 50%;
 }
 
-.Buttom_one {
-  background: red;
+.Top_botton {
   position: absolute;
   width: 15%;
   height: 6%;
@@ -27,8 +12,7 @@
   margin-top: -19%;
 }
 
-.Buttom_two {
-  background: red;
+.Trade_botton {
   position: absolute;
   width: 15%;
   height: 6%;
@@ -36,8 +20,7 @@
   margin-top: -19%;
 }
 
-.Buttom_three {
-  background: red;
+.Business_botton {
   position: absolute;
   width: 15%;
   height: 6%;
@@ -45,8 +28,7 @@
   margin-top: -19%;
 }
 
-.Buttom_four {
-  background: red;
+.Shop_botton {
   position: absolute;
   width: 15%;
   height: 6%;
@@ -60,7 +42,6 @@
 }
 
 .Menu_block {
-  background: blue;
   display: block;
   width: 90%;
   height: 12%;
