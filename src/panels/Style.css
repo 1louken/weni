@@ -2,6 +2,10 @@
   background: red;
 }
 
+.body1 {
+  background: yellow;
+}
+
 .Battom {
   display: block;
   width: 90%;

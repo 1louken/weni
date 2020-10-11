@@ -14,7 +14,7 @@ import menu from '../img/menu.png';
 import './Style.css';
 
 const Home = ({ id, go, fetchedUser}) => (
-	<Panel id={id}>
+	<Panel id={id} className="body1">
 		<PanelHeader>Energy Coin</PanelHeader>
 		<Group className="body">
 			<Div className="Menu_block">
