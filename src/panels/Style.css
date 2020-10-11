@@ -48,7 +48,7 @@
 
 .Menu {
   display: block;
-  width: 100%;
+  width: auto;
 }
 
 .Menu_block {
