@@ -25,7 +25,7 @@ const Home = ({ id, go, fetchedUser}) => (
 				<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
 			</Div>
 		</Group>
-		<Group className=Body_2>
+		<Group className="Body_2">
 			<img className="Battom" src={battom}/>
 		</Group>
 	</Panel>
