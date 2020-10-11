@@ -11,6 +11,7 @@
 }
 
 .Top_botton {
+  background: green;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -19,6 +20,7 @@
 }
 
 .Trade_botton {
+  background: green;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -27,6 +29,7 @@
 }
 
 .Business_botton {
+  background: green;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -35,6 +38,7 @@
 }
 
 .Shop_botton {
+  background: green;
   position: absolute;
   width: 15%;
   height: 6%;
@@ -48,6 +52,7 @@
 }
 
 .Menu_block {
+  background: blue;
   display: block;
   width: 90%;
   height: 12%;
