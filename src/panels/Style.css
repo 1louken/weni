@@ -43,15 +43,15 @@
 }
 
 .Menu {
-  width: auto;
+  width: 90%;
   margin-right: 5%; 
   margin-left: 5%;
 }
 
 .Menu_block {
   background: blue;
-  width: auto;
-  height: auto;
+  width: 80%;
+  height: 90%;
   margin-top: 20%;
   margin-right: 5%; 
   margin-left: 5%;
