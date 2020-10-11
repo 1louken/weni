@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d4fb5e965b85d19edb27abaa873fa05",
+    "revision": "bd4738f214d63428e2fa5cbb691ab9ca",
     "url": "/weni/index.html"
   },
   {
