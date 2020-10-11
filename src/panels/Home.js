@@ -23,10 +23,8 @@ const Home = ({ id, go, fetchedUser}) => (
 				<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 				<Div className="Business_botton" onClick={go} data-to="business"></Div>
 				<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
+				<img className="Battom" src={battom}/>
 			</Div>
-		</Group>
-		<Group>
-			<img className="Battom" src={battom}/>
 		</Group>
 	</Panel>
 );
