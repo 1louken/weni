@@ -2,10 +2,6 @@
   background: red;
 }
 
-.body1 {
-  background: yellow;
-}
-
 .Battom {
   display: block;
   width: 90%;
@@ -61,6 +57,6 @@
   width: 90%;
   height: 12%;
   margin-top: 20%;
-  margin-right: 0%; 
-  margin-left: 0%;
+  margin-right: 5%; 
+  margin-left: 5%;
 }
