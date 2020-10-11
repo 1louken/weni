@@ -54,8 +54,8 @@
 .Menu_block {
   background: blue;
   display: block;
-  width: 90%;
-  height: 12%;
+  width: auto;
+  height: auto;
   margin-top: 20%;
   margin-right: 5%; 
   margin-left: 5%;
