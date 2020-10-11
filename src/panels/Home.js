@@ -16,7 +16,7 @@ import './Style.css';
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
-		<Group className="Body">
+		<Group>
 			<Div className="Menu_block">
 				<img className="Menu" src={menu}/>
 				<Div className="Top_botton" onClick={go} data-to="top"></Div>
@@ -25,7 +25,7 @@ const Home = ({ id, go, fetchedUser}) => (
 				<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
 			</Div>
 		</Group>
-		<Group className="Body_2">
+		<Group>
 			<img className="Battom" src={battom}/>
 		</Group>
 	</Panel>
