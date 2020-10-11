@@ -16,7 +16,7 @@ import './Style.css';
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
-		<Group className=body>
+		<Group className="body">
 			<Div className="Menu_block">
 				<img className="Menu" src={menu}/>
 				<Div className="Top_botton" onClick={go} data-to="top"></Div>
