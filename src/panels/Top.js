@@ -18,7 +18,7 @@ const Top = props => (
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Член
+			Top
 		</PanelHeader>
 	</Panel>
 );
