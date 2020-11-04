@@ -35,6 +35,13 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
 
+	$('.Battom').mousedown(function() {
+    	$(this).addClass('button_scale ');
+    }).click(function() {
+    	return false;
+	}).mouseup(function() {                            
+			$(this).removeClass('button_scale');
+	});
 
 	return (
 		<View activePanel={activePanel} popout={popout}>
