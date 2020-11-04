@@ -1,54 +1,47 @@
 .Battom {
+  display: block;
   width: 90%;
-  margin-top: 0%;
-  margin-right: 5%;
-  margin-left: 5%; 
-}
-
-
-.menu {
-  background: blue;
+  margin: 50% auto 10% auto;
 }
 
 .Top_botton {
   position: absolute;
-  background: green;
-  width: 15%;
-  height: 6%;
-  margin-left: 1%;
-  margin-top: %;
+  background: ;
+  width: 13%;
+  height: 8%;
+  margin-top: -25%; 
+  margin-left: 6%;
 }
 
 .Trade_botton {
-  background: green;
-  width: 15%;
-  height: 6%;
-  margin-left: 23%;
-  margin-top: 19%;
+  position: absolute;
+  background: ;
+  width: 13%;
+  height: 8%;
+  margin-top: -25%; 
+  margin-left: 28%;
 }
 
 .Business_botton {
-  background: green;
-  width: 15%;
-  height: 6%;
-  margin-left: 45%;
-  margin-top: 19%;
+  position: absolute;
+  background: ;
+  width: 17%;
+  height: 8%;
+  margin-left: 48%;
+  margin-top: -25%; 
 }
 
 .Shop_botton {
-  background: green;
-  width: 15%;
-  height: 6%;
-  margin-left: 67%;
-  margin-top: 19%;
+  position: absolute;
+  background: ;
+  width: 16%;
+  height: 8%;
+  margin-left: 72%;
+  margin-top: -25%; 
 }
 
 .Menu {
-  width: auto;
-  max-width: 90%;
-  margin: 5%;
-}
-
-.Menu_block {
-  background: black;
+  display: block;
+  width: 90%;
+  margin: 5% auto;
 }
