@@ -4,10 +4,12 @@
   margin: 50% auto 10% auto;
 }
 
-.button_scale {
-   -webkit-transform: scale(0.94);
-    transform: scale(0.94);
+.Battom:active {
+  display: block;
+  width: 88%;
+  margin: 50% auto 10% auto;
 }
+
 
 .Top_botton {
   position: absolute;
