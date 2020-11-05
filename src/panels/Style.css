@@ -2,9 +2,9 @@
   display: block;
   width: 90%;
   margin: 50% auto auto auto;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
 }
 
 .Battom:active {
