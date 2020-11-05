@@ -14,8 +14,7 @@ import menu from '../img/menu.png';
 import './Style.css';
 
 function changeStyle(){
-              document.getElementById('Battom1').style.width = '88%';
-              document.getElementById('Battom1').style.margin = '51% auto auto auto';
+              document.getElementById('Battom1').className = 'Battom_press';
            }
 
 const Home = ({ id, go, fetchedUser, bat}) => (
