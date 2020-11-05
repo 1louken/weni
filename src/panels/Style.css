@@ -7,7 +7,7 @@
   -webkit-transition: all 0.1s linear;
 }
 
-.Battom:active {
+.Battom:hover {
   display: block;
   width: 86%;
   margin: 52% auto auto auto;
