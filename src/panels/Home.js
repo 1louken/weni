@@ -14,8 +14,8 @@ import menu from '../img/menu.png';
 import './Style.css';
 
 function changeStyle(){
-              document.getElementById('Battom').style.width: = '88%';
-              document.getElementById('Battom').style.margin: = '51% auto auto auto';
+              document.getElementById('Battom').style.width = '88%';
+              document.getElementById('Battom').style.margin = '51% auto auto auto';
            }
 
 const Home = ({ id, go, fetchedUser, bat}) => (
