@@ -26,7 +26,7 @@ const Home = ({ id, go, fetchedUser}) => (
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 			<Div className="Business_botton" onClick={go} data-to="business"></Div>
 			<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-			<img id="Battom1" className="Battom" src={battom} onClick='changeStyle("Battom1")'/>
+			<img id="Battom1" className="Battom" src={battom} onClick={go} data-to="shop"/>
 		</Group>
 	</Panel>
 );
