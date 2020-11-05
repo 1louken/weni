@@ -4,7 +4,7 @@
   margin: 50% auto auto auto;
 }
 
-.Battom_press {
+.Battom:active {
   display: block;
   width: 88%;
   margin: 51% auto auto auto;
