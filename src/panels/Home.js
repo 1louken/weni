@@ -13,8 +13,8 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
-function changeStyle(id){
-              document.getElementById(id).className = 'Battom_press';
+function changeStyle(){
+              document.getElementById('Battom1').className = 'Battom_press';
            }
 
 const Home = ({ id, go, fetchedUser, bat}) => (
@@ -26,7 +26,7 @@ const Home = ({ id, go, fetchedUser, bat}) => (
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 			<Div className="Business_botton" onClick={go} data-to="business"></Div>
 			<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-			<img id="Battom1" className="Battom" src={battom} onClick='changeStyle("Battom1")'/>
+			<img id="Battom1" className="Battom" src={battom} onClick='changeStyle()'/>
 		</Group>
 	</Panel>
 );
