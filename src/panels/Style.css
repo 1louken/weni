@@ -1,13 +1,13 @@
 .Battom {
   display: block;
   width: 90%;
-  margin: 50% auto auto auto;
+  margin: auto auto 10% auto;
 }
 
 .Battom:active {
   display: block;
   width: 86%;
-  margin: 51% auto 10% auto;
+  margin: auto auto 12% auto;
 }
 
 
