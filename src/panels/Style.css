@@ -1,12 +1,12 @@
 .Battom {
   display: block;
   width: 90%;
-  margin: 50% auto 10% auto;
+  margin: 50% auto auto auto;
 }
 
-.Battom:hover {
+.Battom:active {
   display: block;
-  width: 88%;
+  width: 86%;
   margin: 51% auto 10% auto;
 }
 
