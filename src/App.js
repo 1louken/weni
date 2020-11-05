@@ -42,6 +42,7 @@ const App = () => {
 			<Trade id='trade' go={go}/>
 			<Business id='business' go={go}/>
 			<Shop id='shop' go={go}/>
+
 		</View>
 	);
 }
