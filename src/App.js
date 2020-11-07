@@ -35,6 +35,7 @@ const App = () => {
 		setActivePanel(e.currentTarget.dataset.to);
 	};
 
+
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Home id='home' fetchedUser={fetchedUser} go={go}/>
