@@ -9,11 +9,8 @@
 
 .Battom_press {
   display: block;
-  width: 90%;
-  margin: 50% auto auto auto;
-  -moz-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  -webkit-transition: all 0.1s linear;
+  width: 88%;
+  margin: 51% auto auto auto;
 }
 
 .Batto {
