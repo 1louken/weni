@@ -8,23 +8,13 @@
   -webkit-transition: all 0.1s linear;
 }
 
-.Battom_press {
+.Battom:active {
   display: block;
   width: 88%;
   margin: 51% auto auto auto;
 }
 
-.Batto {
-  display: block;
-  width: 86%;
-  margin: 52% auto auto auto;
-}
 
-.asdas {
-  background-color: black;
-  width: 150px;
-  height: 150px;
-}
 
 .Top_botton {
   position: absolute;
