@@ -27,7 +27,7 @@ const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
 		<Group>
-			<Div className="asdas" onClick="ChangeStyle(this)"></Div>
+			<Div className="asdas" onClick="return ChangeStyle(this)"></Div>
 			<img className="Menu" src={menu}/>
 			<Div className="Top_botton" onClick={go} data-to="top"></Div>
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
