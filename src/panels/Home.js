@@ -20,7 +20,7 @@ function ChangeStyl(Element) {
 }
 
 function ChangeStyle(Element) {
-	Element.style.color = 'white';
+	Element.style.width = '200px';
 }
 
 const Home = ({ id, go, fetchedUser}) => (
