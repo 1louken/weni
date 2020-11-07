@@ -20,7 +20,7 @@ function ChangeStyl(Element) {
 }
 
 function ChangeStyle(Element) {
-	Element.style.background-color = 'white';
+	Element.style.color = 'white';
 }
 
 const Home = ({ id, go, fetchedUser}) => (
