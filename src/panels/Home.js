@@ -13,9 +13,9 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
-function changeStyle(id){
-              document.getElementById(id).className = 'Battom_press';
-           }
+function changeStyle(){
+	document.getElementById("ClassEdit").className = "Battom_press";
+}
 
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
@@ -26,7 +26,7 @@ const Home = ({ id, go, fetchedUser}) => (
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 			<Div className="Business_botton" onClick={go} data-to="business"></Div>
 			<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-			<img className="Battom" src={battom}/>
+			<img id='ClassEdit' className="Battom" src={battom} onClick='changeStyle'/>
 		</Group>
 	</Panel>
 );
