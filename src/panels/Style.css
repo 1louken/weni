@@ -10,6 +10,8 @@
   width: 88%;
   margin: 51% auto auto auto;
   -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
 }
 
 
