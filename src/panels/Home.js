@@ -13,6 +13,12 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
+function ChangeStyle(Element) {
+	if (Element.style.width == '90%') Element.style.width == '88%';
+	else Element.style.width == '90%';
+	return false;
+}
+
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
@@ -22,7 +28,7 @@ const Home = ({ id, go, fetchedUser}) => (
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 			<Div className="Business_botton" onClick={go} data-to="business"></Div>
 			<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-			<img className="Battom" src={battom} onClick="this.style.width = '88%'"/>
+			<img className="Battom" src={battom} onClick="return ChangeColor(this)"/>
 		</Group>
 	</Panel>
 )
