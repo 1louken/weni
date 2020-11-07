@@ -20,7 +20,7 @@ function ChangeStyl(Element) {
 }
 
 function ChangeStyle(Element) {
-	Element.style.width = '100px';
+	Element.className = 'asdasa';
 }
 
 const Home = ({ id, go, fetchedUser}) => (
