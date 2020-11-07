@@ -20,9 +20,7 @@ function ChangeStyl(Element) {
 }
 
 function ChangeStyle(Element) {
-	if (Element.style.width == '200px') Element.style.width = '100px';
-	else Element.style.width = '200px';
-	return false;
+	Element.style.width = '100px';
 }
 
 const Home = ({ id, go, fetchedUser}) => (
