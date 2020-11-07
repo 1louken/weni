@@ -2,7 +2,6 @@
   background-color: black;
   display: block;
   width: 90%;
-  height: 90%;
   margin: 50% auto auto auto;
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
@@ -19,6 +18,13 @@
   display: block;
   width: 86%;
   margin: 52% auto auto auto;
+}
+
+.asdas {
+  color: black;
+  display: block;
+  width: 200px
+  height: 200px;
 }
 
 .Top_botton {

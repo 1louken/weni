@@ -13,9 +13,15 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
-function ChangeStyle(Element) {
+function ChangeStyl(Element) {
 	if (Element.style.width == '90%') Element.style.width = '88%';
 	else Element.style.width = '90%';
+	return false;
+}
+
+function ChangeStyle(Element) {
+	if (Element.style.width == '200px') Element.style.width = '100px';
+	else Element.style.width = '200px';
 	return false;
 }
 
@@ -23,14 +29,13 @@ const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
 		<Group>
+			<Div className="asdas" onClick="ChangeStyle(this)"></Div>
 			<img className="Menu" src={menu}/>
 			<Div className="Top_botton" onClick={go} data-to="top"></Div>
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 			<Div className="Business_botton" onClick={go} data-to="business"></Div>
 			<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-			<Div className="Battom" onClick="ChangeStyle(this)">
-				<img src={battom}/>
-			</Div>
+			<img src={battom} className="Battom" onClick="ChangeStyle(this)"/>
 		</Group>
 	</Panel>
 )
