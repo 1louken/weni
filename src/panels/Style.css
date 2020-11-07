@@ -7,14 +7,12 @@
 
 .Battom:active {
   display: block;
-  width: 88%;
-  margin: 51% auto auto auto;
+  width: 86%;
+  margin: 52% auto auto auto;
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
   -webkit-transition: all 0.1s linear;
 }
-
-
 
 .Top_botton {
   position: absolute;
