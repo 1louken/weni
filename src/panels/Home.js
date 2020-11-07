@@ -14,8 +14,8 @@ import menu from '../img/menu.png';
 import './Style.css';
 
 function ChangeStyle(Element) {
-	if (Element.style.width == '90%') Element.style.width == '88%';
-	else Element.style.width == '90%';
+	if (Element.style.width == '90%') Element.style.width = '88%';
+	else Element.style.width = '90%';
 	return false;
 }
 
