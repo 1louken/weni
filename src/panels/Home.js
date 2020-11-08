@@ -13,14 +13,6 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
-('.Battom').mousedown(function() {
-	(this).className('Battom_click');
-}).click(function() {
-	return false;
-}).mouseup(function() {
-	(this).className('Battom');
-});
-
 
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
@@ -31,7 +23,7 @@ const Home = ({ id, go, fetchedUser}) => (
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 			<Div className="Business_botton" onClick={go} data-to="business"></Div>
 			<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-			<img src={battom} className="Battom"/>
+			<img src={battom} className="Battom" onClick='this.className("Battom_click")'/>
 		</Group>
 	</Panel>
 )
