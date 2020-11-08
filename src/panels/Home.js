@@ -13,11 +13,6 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
-var Battom1 = document.getElementById('Battom1');
-Battom1.onclick = function() {
-	this.style.width = '86%';
-}
-
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>
@@ -27,7 +22,7 @@ const Home = ({ id, go, fetchedUser}) => (
 			<Div className="Trade_botton" onClick={go} data-to="trade"></Div>
 			<Div className="Business_botton" onClick={go} data-to="business"></Div>
 			<Div className="Shop_botton" onClick={go} data-to="shop"></Div>
-			<img src={battom} className="Battom" id="Battom1"/>
+			<img src={battom} className="Battom"/>
 		</Group>
 	</Panel>
 )

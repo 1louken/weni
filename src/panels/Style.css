@@ -6,7 +6,7 @@
 
 }
 
-.Battom_click {
+.Battom:active {
   display: block;
   width: 86%;
   margin: 52% auto auto auto;
