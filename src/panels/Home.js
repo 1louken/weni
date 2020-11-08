@@ -13,6 +13,15 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
+$('.Battom').mousedown(function() {
+	$(this).className('Battom_click');
+}).click(function() {
+	return false;
+}).mouseup(function() {
+	$(this).className('Battom');
+});
+
+
 const Home = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
 		<PanelHeader>Energy Coin</PanelHeader>

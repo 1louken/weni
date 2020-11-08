@@ -6,11 +6,10 @@
 
 }
 
-.Battom:active {
+.Battom_click {
   display: block;
   width: 86%;
   margin: 52% auto auto auto;
-  transition: all 0.1s linear;
 
 }
 
