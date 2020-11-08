@@ -13,12 +13,12 @@ import menu from '../img/menu.png';
 
 import './Style.css';
 
-$('.Battom').mousedown(function() {
-	$(this).className('Battom_click');
+('.Battom').mousedown(function() {
+	(this).className('Battom_click');
 }).click(function() {
 	return false;
 }).mouseup(function() {
-	$(this).className('Battom');
+	(this).className('Battom');
 });
 
 
